@@ -1,0 +1,354 @@
+.container {
+
+    display:flex ;
+    justify-content: space-between;
+    flex-direction: row ; 
+    margin-top: 25px;
+}
+
+/* Additional CSS */
+
+.header-section {
+    background-color: #ffffff; /* White background color */
+    padding: 20px 0; /* Add padding as needed */
+}
+
+.container {
+    max-width: 1200px; /* Adjust maximum width as needed */
+    margin: 0 auto;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+     
+}
+
+.header-left {
+    flex: 1; /* Take up remaining space */
+}
+
+.header-middle {
+    flex: 3; /* Take up more space than other sections */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center-align items vertically */
+}
+
+.header-middle p {
+    margin-right: 20px; /* Add margin between words */
+}
+
+.header-right {
+    flex: 1; /* Take up remaining space */
+    text-align: right; /* Align items to the right */
+}
+
+.login-btn, .signup-btn {
+    padding: 10px 20px; /* Add padding to buttons */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+.login-btn {
+    background-color: #ffffff; /* White background color */
+    color: #000000; /* Black text color */
+    margin-right: 10px; /* Add margin between buttons */
+}
+
+.signup-btn {
+    background-color: #000000; /* Black background color */
+    color: #ffffff; /* White text color */
+}
+
+
+
+
+.search-section{
+    background-color: #000;
+    padding: 40px 0;
+    margin-right : 110px  ;
+    margin-top: 0px ;
+    justify-content: flex-start; /* Align content to the top */
+    align-items: flex-start; /* Align items to the left */
+    margin-left: 110px;
+}
+
+
+
+
+
+
+.container1  {
+    width: 80%;
+    margin: 0 auto;
+    margin-left: 40px;
+    justify-content: flex-start; /* Align content to the top */
+    align-items: flex-start; /* Align items to the left */
+}
+
+
+
+
+/* Search Content styles */
+.search-content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.search-text {
+    color: white;
+    margin-right: 20px;
+    font-size: 200 px;
+    font: Helvetica ;
+    
+
+}
+
+/* Search Bar styles */
+.search-bar {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+
+}
+
+.get-started {
+    padding: 20px 40px;
+    background-color: #333;
+    background-color: #ffcb43;
+    background: linear-gradient(90.5deg, rgb(247, 204, 0) 0.2%, rgb(247, 0, 0) 27.3%, rgb(161, 0, 156) 85.5%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+
+    font: georgia ;
+}
+
+.header-image {
+    width: 30%; /* Adjust width as needed */
+    height: 20; /* Maintain aspect ratio */
+    position: absolute;
+    top: 75px;
+    left: 1100px; 
+     
+    z-index: 1; /* Ensure the image is 9dam other content */
+}
+
+logo-container {
+    display: flex;
+    
+
+}
+.logo-section{
+    margin-left:100px ;
+
+
+}
+.logo {
+    width: 130px; /* Adjust width as needed */
+    height: 30px; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add spacing between logos */
+    margin-top: 90px;
+    margin-inline: 40px;
+}
+
+
+
+
+
+
+
+.image-section {
+    padding: 40px 0; /* Add padding as needed */
+    background-color: #ffffff; /* Change background color as desired */
+}
+
+.container3 {
+    max-width: 1200px; /* Adjust maximum width as needed */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+}
+
+.image-wrapper,
+.paragraph-wrapper {
+    flex-basis: calc(50% - 10px); /* Adjust width of each wrapper */
+    padding: 0 5px; /* Add padding as needed */
+    box-sizing: border-box; /* Include padding in width calculation */
+}
+
+.image-container {
+    display: flex; /* Use flexbox for image containers */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: flex-end; /* Align items at the bottom */
+    height: 100%; /* Make containers take full height of parent */
+}
+
+.image {
+    width: 100%; /* Ensure images fill their containers */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure images behave as block elements */
+}
+
+.image-description {
+    margin-top: 10px; /* Add margin between image and description */
+    text-align: center; /* Center-align image descriptions */
+}
+
+
+.black-section {
+    background-color: #000000; /* Black background color */
+    color: #ffffff; /* White text color */
+    padding: 40px 0; /* Add padding as needed */
+    position: relative; /* Position relative for containing the absolutely positioned image */
+    height: 200px ; 
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.image-wrapper1 {   
+    text-align: center; /* Center-align the image */
+    margin-bottom: 20px; /* Add margin below the image */
+    position: absolute; /* Position the image absolutely */
+    top: 20px; /* Adjust the distance from the top */
+    left: 50%; /* Position the image horizontally in the middle */
+    transform: translateX(-50%); /* Adjust horizontal positioning to center */
+}
+
+.image-wrapper1 img {
+    width: 70%; /* Set the image width to 50% */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 500px;
+}
+
+
+
+.left-content {
+    width: 50%; /* Set width to 50% to align left */
+    padding-right: 20px; /* Add padding on the right for spacing */
+    box-sizing: border-box; /* Include padding in width calculation */
+    margin-left: 30px;
+    
+}
+
+.left-content h2 {
+    font-size: 25px; /* Adjust font size as needed */
+    margin-top: 0px; /* Add margin below the title */
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.left-content p {
+    margin-bottom: 10px; /* Add margin below each phrase */
+}
+
+
+
+.button1 {
+    background-color: #ffffff; /* Red background color for Button 1 */
+    color: #070707; /* White text color */
+}
+
+.button2 {
+    padding: 20px 40px;
+    background-color: #333;
+    background-color: #ffcb43;
+    background: linear-gradient(90.5deg, rgb(247, 204, 0) 0.2%, rgb(247, 0, 0) 27.3%, rgb(161, 0, 156) 85.5%);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+
+    font: georgia ;
+}
+
+.button-container button {
+    flex: 1; /* Each button takes equal space */
+    margin-right: 10px; /* Add margin between buttons */
+    padding: 10px 60px; /* Add padding to buttons */
+    border: none; /* Remove border */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Additional CSS */
+
+.picture-section {
+    padding: 40px 0; /* Add padding as needed */
+}
+
+.container4 {
+    max-width: 1300px; /* Adjust maximum width as needed */
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.row {
+    display: flex; /* Use flexbox for rows */
+    justify-content: center; /* Center-align items horizontally */
+    margin-bottom: 20px; /* Add margin between rows */
+}
+
+.column {
+    flex: 1; /* Each column takes equal space */
+    margin: 0 10px; /* Add margin between columns */
+    display: flex; /* Use flexbox for columns */
+    flex-direction: column; /* Stack items vertically */
+}
+
+.column img {
+    width: 100%; /* Ensure images fill their columns */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 10px; /* Add margin between images */
+}
+
+/* Additional CSS */
+
+.footer-section {
+    background-color: #000000; /* Black background color */
+    color: #ffffff; /* White text color */
+    padding: 20px 0; /* Add padding as needed */
+    margin-left: 110px;
+    margin-right: 110px;
+}
+
+.container5 {
+    max-width: 1200px; /* Adjust maximum width as needed */
+    margin: 0 auto;
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Center-align items vertically */
+}
+
+.footer-left {
+    flex: 1; /* Take up remaining space */
+}
+
+.footer-right {
+    display: flex; /* Use flexbox for layout */
+    flex: 1; /* Take up remaining space */
+    justify-content: flex-end; /* Align items to the right */
+}
+
+.column {
+    margin-left: 20px; /* Add margin between columns */
+}
+
+.column p {
+    margin: 5px 0; /* Add margin between words */
+}
+
+/* Additional CSS */
+
+.social-icons {
+    display: flex; /* Use flexbox for layout */
+}
+
+.social-icons img {
+    width: 20px; /* Set width of icons */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Add margin between icons */
+}
+
+
